@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		63A6EE3F2949975F00E442EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A6EE3E2949975F00E442EA /* AppDelegate.swift */; };
 		63A6EE412949975F00E442EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A6EE402949975F00E442EA /* SceneDelegate.swift */; };
-		63A6EE432949975F00E442EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A6EE422949975F00E442EA /* ViewController.swift */; };
 		63A6EE462949975F00E442EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A6EE442949975F00E442EA /* Main.storyboard */; };
 		63A6EE482949976100E442EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A6EE472949976100E442EA /* Assets.xcassets */; };
 		63A6EE4B2949976100E442EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A6EE492949976100E442EA /* LaunchScreen.storyboard */; };
+		63A6EE542949985C00E442EA /* CardListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A6EE532949985C00E442EA /* CardListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		63A6EE3B2949975F00E442EA /* CardList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A6EE3E2949975F00E442EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63A6EE402949975F00E442EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		63A6EE422949975F00E442EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		63A6EE452949975F00E442EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63A6EE472949976100E442EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63A6EE4A2949976100E442EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63A6EE4C2949976100E442EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63A6EE532949985C00E442EA /* CardListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +40,7 @@
 		63A6EE322949975F00E442EA = {
 			isa = PBXGroup;
 			children = (
+				63A6EE522949984A00E442EA /* View */,
 				63A6EE3D2949975F00E442EA /* CardList */,
 				63A6EE3C2949975F00E442EA /* Products */,
 			);
@@ -58,13 +59,20 @@
 			children = (
 				63A6EE3E2949975F00E442EA /* AppDelegate.swift */,
 				63A6EE402949975F00E442EA /* SceneDelegate.swift */,
-				63A6EE422949975F00E442EA /* ViewController.swift */,
 				63A6EE442949975F00E442EA /* Main.storyboard */,
 				63A6EE472949976100E442EA /* Assets.xcassets */,
 				63A6EE492949976100E442EA /* LaunchScreen.storyboard */,
 				63A6EE4C2949976100E442EA /* Info.plist */,
 			);
 			path = CardList;
+			sourceTree = "<group>";
+		};
+		63A6EE522949984A00E442EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				63A6EE532949985C00E442EA /* CardListViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63A6EE432949975F00E442EA /* ViewController.swift in Sources */,
+				63A6EE542949985C00E442EA /* CardListViewController.swift in Sources */,
 				63A6EE3F2949975F00E442EA /* AppDelegate.swift in Sources */,
 				63A6EE412949975F00E442EA /* SceneDelegate.swift in Sources */,
 			);
